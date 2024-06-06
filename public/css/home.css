@@ -1,0 +1,248 @@
+@import url(footer.css);
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+overflow-x: hidden;
+background-color: #F2F2F2;
+
+}
+
+.content .text h2{
+width: 676.505px;
+height: 300px;
+flex-shrink: 0;
+color: #F2F2F2;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 78px;
+
+}
+
+
+
+
+.panti_tergabung {
+  text-align: center; /* Mengatur teks menjadi pusat */
+}
+
+.panti_tergabung h1 {
+margin-top: 0; /* Menghilangkan margin atas default dari elemen h1 */
+color: var(--secondary_oceanblue, #0866FF);
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.lihat_semua button {
+text-align: center; /* Meletakkan elemen di tengah */
+color: var(--secondary_oceanblue, #0866FF);
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 137.25%; /* 27.45px */
+
+}
+
+.lihat_semua button {
+width: 198px;
+height: 45px;
+flex-shrink: 0;
+border-radius: 6px;
+border: 3px solid var(--secondary_oceanblue, #0866FF);
+align-items: center;
+}
+
+
+
+
+  .content {
+  
+    height: auto;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto; 
+    z-index: 0;
+    border-radius: 0px 0px 23px 23px;
+    background: url(http://localhost/LAST/public/img/client/Beranda/bghome.png) no-repeat    ;
+  }
+
+
+.content .text h2{
+  width: 676.505px;
+  height: 300px;
+  flex-shrink: 0;
+  color: #F2F2F2;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 78px;
+  display: flex;
+  padding-top: 120px;
+  
+}
+
+
+
+.content .text p{
+  width: 720px;
+  height: 90px;
+  flex-shrink: 0;
+  color: #F2F2F2;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 380;
+  line-height: normal;
+  margin-left: 78px;
+
+  }
+
+#carouselExampleIndicators {
+  width: 1299px;
+  height: 448px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  position: relative;
+  margin: 40px auto; /* Menambahkan jarak 40px ke atas dan bawah, dan menempatkan secara horizontal di tengah */
+}
+
+.carousel-inner {
+  border-radius: 25px;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-indicators {
+  bottom: 10px;
+}
+
+.carousel-indicators button {
+  background-color: #007bff;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.carousel-indicators .active {
+  background-color: #0056b3;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+  left: 0;
+}
+
+.carousel-control-next {
+  right: 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  font-size: 25px;
+  color: #fff;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 409px;
+  margin : 20px 20px 20px 20px;
+}
+
+.card-title {
+margin-bottom: 0; /* Menghilangkan margin bawah dari judul */
+}
+
+.tanggal {
+
+flex-shrink: 0;
+color: var(--offbutton, rgba(0, 0, 0, 0.60));
+font-family: 'Poppins', sans-serif;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 137.25%;
+text-align: right; /* Menggeser teks ke kanan */
+}
+
+
+.box{
+margin: 34px;
+}
+
+.gambar-card{
+width: 409px;
+height: 294px;
+}
+
+
+.lingkaran-container {
+display: flex;
+justify-content: space-around;
+align-items: flex-start; /* Align items ke bagian atas */
+align-items: center;
+margin-top: 20px;
+}
+
+.lingkaran {
+text-align: center;
+width: 150px;
+height: 150px;
+flex-shrink: 0;
+border-radius: 100px;
+background: #D9D9D9;
+
+}
+
+.lingkaran img {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+}
+
+.lingkaran p {
+display: flex;
+width: 394px;
+height: 173px;
+flex-direction: column;
+
+flex-shrink: 0;
+color: #000;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}

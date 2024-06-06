@@ -1,0 +1,193 @@
+@import url(footer.css);
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #f2f2f2;
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin-bottom: 80px; /* Sesuaikan dengan tinggi footer */
+}
+
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(http://localhost/LAST/public/img/client/CariPanti/caripanti.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.home .content{
+  max-width: 60rem;
+  text-align: center;
+}
+
+.home .content h3{
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: var(--white);
+  padding-bottom: 3.5rem;
+}
+
+.home .content h1{
+  color: var(--white);
+}
+
+.lihat_semua button {
+  text-align: center; /* Meletakkan elemen di tengah */
+  color: var(--secondary_oceanblue, #0866ff);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 137.25%; /* 27.45px */
+  width: 198px;
+  height: 45px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 3px solid var(--secondary_oceanblue, #0866ff);
+  align-items: center;
+}
+/* CSS untuk mengatur tombol "Lihat Semua" di tengah halaman */
+.lihat_semua {
+   text-align: center;
+   margin-top: 20px; /* Sesuaikan jarak dari atas sesuai kebutuhan */
+}
+.lihat_semua button {
+   display: inline-block;
+}
+
+/* .lihat_semua button {
+  width: 198px;
+  height: 45px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 3px solid var(--secondary_oceanblue, #0866ff);
+  align-items: center;
+} */
+
+.konten-caripanti {
+  width: 100%;
+}
+
+.gambarcaripanti img {
+  width: 100%;
+  height: auto; /* Menjaga aspek rasio gambar */
+}
+
+.container-filter {
+  height: 144px;
+  flex-shrink: 0;
+  background: var(--secondary_oceanblue, #0866ff); 
+}
+
+
+.select {
+  display: flex;
+  align-items: center;
+  width: 1000px;
+  height: 200px;
+  flex-shrink: 0;
+}
+
+.select label {
+  margin-right: 10px;
+}
+
+.select input,
+.select select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.search-button {
+  padding: 10px;
+  background-color: white;
+  color: #3498db;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 409px;
+  margin: 20px 20px 20px 20px;
+}
+
+.card-title {
+  margin-bottom: 0; /* Menghilangkan margin bawah dari judul */
+}
+
+.tanggal {
+  flex-shrink: 0;
+  color: var(--offbutton, rgba(0, 0, 0, 0.6));
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 137.25%;
+  text-align: right; /* Menggeser teks ke kanan */
+}
+
+.options-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.option {
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.option:hover {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.active {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.pagination a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  margin: 0 5px;
+  border-radius: 105px;
+  cursor: pointer;
+}
+
+.pagination a.active {
+  background-color: #0866ff;
+  color: white;
+}
+
+.pagination a img {
+  width: 20px;
+  height: 20px;
+}
